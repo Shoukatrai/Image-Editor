@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Image Editor</h1>
+    <div class="caonatiner">
+        <div class="image">
+            <!-- <input type="file" name="" id="image"> -->
+            <img src="./Images/th.jpeg" alt="" id="realImage">
+        </div>
+        <div class="btns">
+            <div class="align">
+                <label for="input">Width</label>
+                <input  type="range" min="10" oninput="setWidth( this)">    
+            </div>
+            <div class="align">
+                <label for="input">Height</label>
+                <input type="range" onclick="setHeight(this)">    
+            </div>
+            <div class="align">
+                <label for="input">Rotate</label>
+                <input type="range" onclick="rotate(this)">    
+            </div> 
+        </div>
+    </div>
+
+
+
+
+
+
+
+    
+</body>
+<script src="app.js"></script>
+</html>
